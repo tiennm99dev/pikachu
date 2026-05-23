@@ -38,7 +38,7 @@
         "test:silent": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --silent"
     },
     "dependencies": {
-        "next": "15.3.1",
+        "next": "15.5.18",
         "phaser": "^4.1.0",
         "react": "19.2.6",
         "react-dom": "19.2.6"
