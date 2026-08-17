@@ -1,53 +1,58 @@
 {
-    "name": "template-nextjs",
-    "version": "1.2.0",
-    "packageManager": "pnpm@11.1.1",
-    "description": "A Phaser 3 Next.js project template that demonstrates Next.js with React communication and uses Vite for bundling.",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/phaserjs/template-nextjs.git"
-    },
-    "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
-    "license": "MIT",
-    "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
-    "bugs": {
-        "url": "https://github.com/phaserjs/template-nextjs/issues"
-    },
-    "homepage": "https://github.com/phaserjs/template-nextjs#readme",
-    "keywords": [
-        "phaser",
-        "phaser3",
-        "next",
-        "nextjs",
-        "vite",
-        "javascript"
-    ],
-    "scripts": {
-        "dev": "node log.cjs dev & next dev -p 8080",
-        "build": "node log.cjs build & next build",
-        "dev-nolog": "next dev -p 8080",
-        "build-nolog": "next build",
-        "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
-        "test:watch": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --watch",
-        "test:coverage": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --coverage",
-        "test:i": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js test/patterns/i-pattern.test.js",
-        "test:l": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js test/patterns/l-pattern.test.js",
-        "test:u": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js test/patterns/u-pattern.test.js",
-        "test:z": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js test/patterns/z-pattern.test.js",
-        "test:verbose": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --verbose",
-        "test:silent": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --silent"
-    },
-    "dependencies": {
-        "next": "16.2.11",
-        "phaser": "^4.2.0",
-        "react": "19.2.7",
-        "react-dom": "19.2.7"
-    },
-    "devDependencies": {
-        "jest": "^30.4.2"
-    },
-    "type": "module",
-    "pnpm": {
-        "ignoredBuiltDependencies": ["sharp"]
-    }
+  "name": "template-nextjs",
+  "version": "1.2.0",
+  "description": "A Phaser 3 Next.js project template that demonstrates Next.js with React communication and uses Vite for bundling.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaserjs/template-nextjs.git"
+  },
+  "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "bugs": {
+    "url": "https://github.com/phaserjs/template-nextjs/issues"
+  },
+  "homepage": "https://github.com/phaserjs/template-nextjs#readme",
+  "keywords": [
+    "phaser",
+    "phaser3",
+    "next",
+    "nextjs",
+    "vite",
+    "javascript"
+  ],
+  "scripts": {
+    "dev": "node log.cjs dev & next dev -p 8080",
+    "build": "node log.cjs build & next build",
+    "dev-nolog": "next dev -p 8080",
+    "build-nolog": "next build",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --watch",
+    "test:coverage": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --coverage",
+    "test:i": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js test/patterns/i-pattern.test.js",
+    "test:l": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js test/patterns/l-pattern.test.js",
+    "test:u": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js test/patterns/u-pattern.test.js",
+    "test:z": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js test/patterns/z-pattern.test.js",
+    "test:verbose": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --verbose",
+    "test:silent": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --silent"
+  },
+  "dependencies": {
+    "next": "16.2.11",
+    "phaser": "^4.2.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  },
+  "type": "module",
+  "overrides": {
+    "@babel/core": "7.29.7",
+    "js-yaml": "4.3.0",
+    "postcss": "8.5.16"
+  },
+  "allowScripts": {
+    "sharp": true,
+    "unrs-resolver": true
+  }
 }
