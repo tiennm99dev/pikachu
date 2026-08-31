@@ -4,7 +4,7 @@
 
 The Matching Game (commonly known as Pikachu Puzzle Game) presents a board of cells, each containing a symbol. The player finds and matches pairs of cells that contain the same symbol and can be connected via a valid path pattern. A legal match removes both cells from the board. The game ends when all matching pairs are found.
 
-**Live demo:** https://tiennm99.github.io/pikachu/
+**Live demo:** https://tiennm99dev.github.io/pikachu/
 
 ## Board Structure
 
