@@ -37,10 +37,10 @@
     "test:silent": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --silent"
   },
   "dependencies": {
-    "next": "16.2.11",
+    "next": "16.3.8",
     "phaser": "^4.2.0",
-    "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
   },
   "devDependencies": {
     "jest": "^30.4.2"
@@ -48,8 +48,8 @@
   "type": "module",
   "overrides": {
     "@babel/core": "7.29.7",
-    "js-yaml": "4.3.0",
-    "postcss": "8.5.16"
+    "js-yaml": "4.3.2",
+    "postcss": "8.5.28"
   },
   "allowScripts": {
     "sharp": true,
